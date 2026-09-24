@@ -429,13 +429,29 @@
         "uuid": "08a0edf5-ad57-4ef4-97bf-c48cb466bb64"
       }
     ],
-    "used_designators": "F1,U1-3,R1-4,J1,L1,#PWR1-14,C1-5",
+    "used_designators": "F1,U1-3,R1-4,J1-2,D1,L1,#PWR1-18,C1-9",
     "variants": []
   },
   "sheets": [
     [
       "08a0edf5-ad57-4ef4-97bf-c48cb466bb64",
       "Root"
+    ],
+    [
+      "ad5e2684-37d5-4798-857e-b008f2017e84",
+      "POWER"
+    ],
+    [
+      "d828ebd7-4225-4d5a-b4a0-d2b499e99b3d",
+      "MCU"
+    ],
+    [
+      "7e15f001-d8fd-4ae1-8fa5-bb597a8ccabb",
+      "SENSORS"
+    ],
+    [
+      "a8b20a94-9e87-4c03-83c5-8129ea634c32",
+      "COMMS"
     ]
   ],
   "text_variables": {},
