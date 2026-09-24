@@ -695,45 +695,49 @@
 		)
 		(uuid "ecbf3dc2-bc48-4348-9b4a-73cdba26b527")
 	)
-	(label "IO1"
+	(hierarchical_label "IO1"
+		(shape input)
 		(at 44.45 46.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "68535b31-1690-4d57-8fe4-5169070d0137")
+		(uuid "05728f0b-52c1-4169-b336-4eab4eccf0c7")
 	)
-	(label "IO3"
-		(at 44.45 49.53 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c84716c2-2646-41eb-9140-ae46778b2457")
-	)
-	(label "IO0"
-		(at 44.45 54.61 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d40b4a73-39e3-40af-8854-f12d921dcbf8")
-	)
-	(label "ESP32 EN"
+	(hierarchical_label "ESP32 EN"
+		(shape input)
 		(at 44.45 52.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "d552b41f-b541-4907-b6a1-e7537e2a2b00")
+		(uuid "6928d24c-f789-4840-889e-c99d0fe25579")
+	)
+	(hierarchical_label "IO0"
+		(shape input)
+		(at 44.45 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "db0e552e-2769-4653-9d91-36b501ae9efe")
+	)
+	(hierarchical_label "IO3"
+		(shape input)
+		(at 44.45 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f9c78019-4ae0-42c8-8713-ece19dcba509")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -823,10 +827,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "adaf2088-89ef-4de6-8fb2-ea8f4a7b4b0c")
 		(property "Reference" "J2"
-			(at 37.465 36.83 0)
+			(at 36.83 35.306 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -836,7 +839,7 @@
 			)
 		)
 		(property "Value" "Conn_01x06_Pin"
-			(at 37.465 39.37 0)
+			(at 36.83 37.846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

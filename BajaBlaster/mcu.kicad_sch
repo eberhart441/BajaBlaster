@@ -1613,45 +1613,49 @@
 		)
 		(uuid "fe01c34b-7f32-438c-82fc-d3ab47e7148a")
 	)
-	(label "IO1"
+	(hierarchical_label "IO1"
+		(shape input)
 		(at 82.55 45.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "533380cd-757b-435f-8197-32dd6cb95ebc")
+		(uuid "67c036cb-e037-487f-984b-f26c30781960")
 	)
-	(label "ESP32 EN"
-		(at 35.56 46.99 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6cb3478a-8d27-44b3-ab27-7583e0677217")
-	)
-	(label "IO0"
-		(at 82.55 43.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "71eac822-90f6-484b-b2a5-576d20bd663f")
-	)
-	(label "IO3"
+	(hierarchical_label "IO3"
+		(shape input)
 		(at 82.55 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "d9f06bb8-3b10-460a-92d3-dbeb54a04ef1")
+		(uuid "dfc30ccf-9b68-411a-ab78-195f7a696cab")
+	)
+	(hierarchical_label "IO0"
+		(shape input)
+		(at 82.55 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e4bfb800-2596-4892-b770-3b3411f02838")
+	)
+	(hierarchical_label "ESP32 EN"
+		(shape input)
+		(at 35.56 46.99 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fb132a8f-b5eb-4fed-8fba-0edf0fb5d264")
 	)
 	(symbol
 		(lib_id "power:GND")
