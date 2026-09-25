@@ -2282,7 +2282,7 @@
 		(uuid "abf4a581-95f9-4b92-bade-34a0c790f5e4")
 	)
 	(hierarchical_label "IO0"
-		(shape input)
+		(shape bidirectional)
 		(at 36.83 47.625 0)
 		(effects
 			(font

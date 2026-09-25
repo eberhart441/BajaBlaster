@@ -91,6 +91,16 @@
 		)
 		(uuid "a5d12e5c-a7b1-41b8-9ad5-de45f8e7e387")
 	)
+	(wire
+		(pts
+			(xy 65.405 36.83) (xy 71.755 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2ed7424-e335-4717-a106-3bb3f1661698")
+	)
 	(sheet
 		(at 46.355 21.59)
 		(size 19.05 34.925)
@@ -202,6 +212,16 @@
 		(pin "SYNC" bidirectional
 			(at 65.405 28.575 0)
 			(uuid "4dc47fb9-ee18-4e9a-975f-097e1ab98e31")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IO0" bidirectional
+			(at 65.405 36.83 0)
+			(uuid "9677ab36-c4fa-4542-8c7a-5eff02a540c5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -374,6 +394,16 @@
 		(pin "SYNC" bidirectional
 			(at 71.755 28.575 180)
 			(uuid "89b3e1ac-7ffb-4a12-b1e2-e733be62b228")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IO0" bidirectional
+			(at 71.755 36.83 180)
+			(uuid "f1ec21e4-0ad7-4bf8-824b-9064b4f10102")
 			(effects
 				(font
 					(size 1.27 1.27)
