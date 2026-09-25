@@ -2913,7 +2913,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 88.9) (xy 80.01 88.9)
+			(xy 85.09 88.9) (xy 80.01 88.9)
 		)
 		(stroke
 			(width 0)
@@ -3053,7 +3053,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 86.36) (xy 80.01 86.36)
+			(xy 85.09 86.36) (xy 80.01 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3191,26 +3191,6 @@
 		)
 		(uuid "1e97de54-2191-48a3-8129-f10f24d40f84")
 	)
-	(label "CAN_RX"
-		(at 83.82 88.9 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "20e43bf9-93a2-4585-a640-3a368c19d53a")
-	)
-	(label "CAN_TX"
-		(at 83.82 86.36 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2c18e5d1-d2ad-4a5f-88a3-3101d571fa0e")
-	)
 	(label "IMU_SDA"
 		(at 120.65 64.77 180)
 		(effects
@@ -3314,6 +3294,17 @@
 		)
 		(uuid "1e1a3767-bc63-40ae-b917-9f30cca01fa9")
 	)
+	(hierarchical_label "CAN_TX"
+		(shape bidirectional)
+		(at 85.09 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5eeeeb19-41ac-40bc-bc7e-24eb7b2518db")
+	)
 	(hierarchical_label "IO1"
 		(shape bidirectional)
 		(at 55.88 137.16 180)
@@ -3346,6 +3337,17 @@
 			(justify right)
 		)
 		(uuid "779168ae-c8fc-4014-b776-199209e02f3a")
+	)
+	(hierarchical_label "CAN_RX"
+		(shape bidirectional)
+		(at 85.09 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b3e73be3-a2ab-4df7-a113-556545dba8b8")
 	)
 	(hierarchical_label "IO3"
 		(shape bidirectional)
@@ -3665,7 +3667,7 @@
 				)
 			)
 		)
-		(property "Value" ".1uf"
+		(property "Value" "0.1uf"
 			(at 147.32 43.18 90)
 			(show_name no)
 			(do_not_autoplace no)
