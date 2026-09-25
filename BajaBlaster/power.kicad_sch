@@ -5,7 +5,10 @@
 	(uuid "5b19a14a-ef94-4ea0-bc45-82e71b8acdc6")
 	(paper "A5")
 	(title_block
-		(title "POWER_REV_A")
+		(title "BAJA_BLASTER")
+		(date "2026-09-24")
+		(rev "A")
+		(company "Olin Baja SAE")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x02_Pin"
@@ -1930,7 +1933,7 @@
 	)
 	(text "+12V IN"
 		(exclude_from_sim no)
-		(at 36.83 20.828 0)
+		(at 40.64 20.955 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -1942,7 +1945,7 @@
 	)
 	(text "+5V LDO TO +3.3V"
 		(exclude_from_sim no)
-		(at 48.641 86.233 0)
+		(at 43.561 86.868 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -1965,7 +1968,7 @@
 		(uuid "17876f72-5eb1-4f8f-abbc-58f1409cd107")
 	)
 	(junction
-		(at 60.325 102.235)
+		(at 55.245 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "43858d0f-f073-42d3-b758-28abf30a8066")
@@ -1983,13 +1986,13 @@
 		(uuid "548fbffd-c872-4232-93d6-1fdb74d9b9a1")
 	)
 	(junction
-		(at 42.545 103.505)
+		(at 37.465 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "74bc51ba-9afb-4f9d-85b2-46afaf945910")
 	)
 	(junction
-		(at 50.165 114.935)
+		(at 45.085 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9b09e1dc-278c-4954-9a81-cab0230f4b9d")
@@ -2019,7 +2022,7 @@
 		(uuid "cce64581-143f-45c7-992c-84268352e884")
 	)
 	(junction
-		(at 40.005 103.505)
+		(at 34.925 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "da6daeca-4346-4e5a-8831-843300f486c4")
@@ -2032,7 +2035,7 @@
 	)
 	(wire
 		(pts
-			(xy 42.545 102.235) (xy 42.545 103.505)
+			(xy 37.465 102.87) (xy 37.465 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2052,7 +2055,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.005 114.935) (xy 60.325 114.935)
+			(xy 34.925 115.57) (xy 55.245 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2082,7 +2085,7 @@
 	)
 	(wire
 		(pts
-			(xy 42.545 103.505) (xy 40.005 103.505)
+			(xy 37.465 104.14) (xy 34.925 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2132,7 +2135,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.165 112.395) (xy 50.165 114.935)
+			(xy 45.085 113.03) (xy 45.085 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2162,7 +2165,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.005 113.665) (xy 40.005 114.935)
+			(xy 34.925 114.3) (xy 34.925 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2222,7 +2225,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.325 102.235) (xy 60.325 106.045)
+			(xy 55.245 102.87) (xy 55.245 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2252,7 +2255,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.005 103.505) (xy 40.005 97.155)
+			(xy 34.925 104.14) (xy 34.925 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2272,7 +2275,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.325 113.665) (xy 60.325 114.935)
+			(xy 55.245 114.3) (xy 55.245 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2282,7 +2285,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.325 102.235) (xy 57.785 102.235)
+			(xy 55.245 102.87) (xy 52.705 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2312,7 +2315,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.005 103.505) (xy 40.005 106.045)
+			(xy 34.925 104.14) (xy 34.925 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2332,7 +2335,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.165 117.475) (xy 50.165 114.935)
+			(xy 45.085 118.11) (xy 45.085 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2342,7 +2345,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.325 97.155) (xy 60.325 102.235)
+			(xy 55.245 97.79) (xy 55.245 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2512,7 +2515,7 @@
 	)
 	(wire
 		(pts
-			(xy 42.545 103.505) (xy 42.545 104.775)
+			(xy 37.465 104.14) (xy 37.465 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2623,7 +2626,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 40.005 97.155 0)
+		(at 34.925 97.79 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2634,7 +2637,7 @@
 		(fields_autoplaced yes)
 		(uuid "09d4d8ae-1592-4e00-ad14-946a04ae4446")
 		(property "Reference" "#PWR0201"
-			(at 40.005 100.965 0)
+			(at 34.925 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2645,7 +2648,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 40.005 92.075 0)
+			(at 34.925 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2655,7 +2658,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.005 97.155 0)
+			(at 34.925 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2666,7 +2669,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.005 97.155 0)
+			(at 34.925 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2677,7 +2680,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 40.005 97.155 0)
+			(at 34.925 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2939,7 +2942,7 @@
 	)
 	(symbol
 		(lib_id "Regulator_Linear:AP2112K-3.3")
-		(at 50.165 104.775 0)
+		(at 45.085 105.41 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2950,7 +2953,7 @@
 		(fields_autoplaced yes)
 		(uuid "40c9c270-1f8d-493d-9098-3e5d5e51e104")
 		(property "Reference" "U201"
-			(at 50.165 95.885 0)
+			(at 45.085 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2960,7 +2963,7 @@
 			)
 		)
 		(property "Value" "AP2112K-3.3"
-			(at 50.165 98.425 0)
+			(at 45.085 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2970,7 +2973,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 50.165 96.52 0)
+			(at 45.085 97.155 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2981,7 +2984,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP2112.pdf"
-			(at 50.165 102.235 0)
+			(at 45.085 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2992,7 +2995,7 @@
 			)
 		)
 		(property "Description" "600mA low dropout linear regulator, with enable pin, 3.8V-6V input voltage range, 3.3V fixed positive output, SOT-23-5"
-			(at 50.165 104.775 0)
+			(at 45.085 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3028,7 +3031,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 40.005 109.855 0)
+		(at 34.925 110.49 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3038,7 +3041,7 @@
 		(dnp no)
 		(uuid "4bda2ab4-9b28-4ab5-9736-991a79dc8ca9")
 		(property "Reference" "C201"
-			(at 34.29 104.775 0)
+			(at 29.21 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3049,7 +3052,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 35.687 107.061 0)
+			(at 30.607 107.696 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3060,7 +3063,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.9702 113.665 0)
+			(at 35.8902 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3071,7 +3074,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.005 109.855 0)
+			(at 34.925 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3082,7 +3085,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 40.005 109.855 0)
+			(at 34.925 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3582,7 +3585,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 60.325 97.155 0)
+		(at 55.245 97.79 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3593,7 +3596,7 @@
 		(fields_autoplaced yes)
 		(uuid "928afe67-b2f3-4c81-bc6a-3db9d5263ddf")
 		(property "Reference" "#PWR0204"
-			(at 60.325 100.965 0)
+			(at 55.245 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3604,7 +3607,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 60.325 92.075 0)
+			(at 55.245 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3614,7 +3617,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.325 97.155 0)
+			(at 55.245 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3625,7 +3628,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.325 97.155 0)
+			(at 55.245 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3636,7 +3639,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 60.325 97.155 0)
+			(at 55.245 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4312,7 +4315,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 50.165 117.475 0)
+		(at 45.085 118.11 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4323,7 +4326,7 @@
 		(fields_autoplaced yes)
 		(uuid "e1aaeba0-8979-4534-8c4f-408bbc9a1af7")
 		(property "Reference" "#PWR0203"
-			(at 50.165 123.825 0)
+			(at 45.085 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4334,7 +4337,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 50.165 122.555 0)
+			(at 45.085 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4344,7 +4347,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.165 117.475 0)
+			(at 45.085 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4355,7 +4358,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.165 117.475 0)
+			(at 45.085 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4366,7 +4369,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 50.165 117.475 0)
+			(at 45.085 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4390,7 +4393,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 60.325 109.855 0)
+		(at 55.245 110.49 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4400,7 +4403,7 @@
 		(dnp no)
 		(uuid "ed1b2643-faea-425d-88d7-d6bc73e51ebd")
 		(property "Reference" "C203"
-			(at 61.087 104.775 0)
+			(at 56.007 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4411,7 +4414,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 61.087 107.315 0)
+			(at 56.007 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4422,7 +4425,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 61.2902 113.665 0)
+			(at 56.2102 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4433,7 +4436,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.325 109.855 0)
+			(at 55.245 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4444,7 +4447,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 60.325 109.855 0)
+			(at 55.245 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

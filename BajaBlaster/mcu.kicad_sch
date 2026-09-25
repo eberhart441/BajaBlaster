@@ -5,7 +5,10 @@
 	(uuid "ad17508f-8c2c-41eb-9b8f-de1f3684f02d")
 	(paper "A4")
 	(title_block
-		(title "MCU_REV_A")
+		(title "BAJA_BLASTER")
+		(date "2026-09-24")
+		(rev "A")
+		(company "Olin Baja SAE")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x06_Socket"
@@ -2469,12 +2472,6 @@
 		(uuid "2ce331de-8811-49ff-93f1-3e9d6906058b")
 	)
 	(junction
-		(at 168.91 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2fe1a817-8749-4a20-b9b1-56a1e58bc280")
-	)
-	(junction
 		(at 88.9 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2491,6 +2488,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9e06b3b2-2dc6-452d-8f03-a924d9100fae")
+	)
+	(junction
+		(at 168.91 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a9053dd2-bb61-42a0-ae08-7c4857003bfe")
 	)
 	(junction
 		(at 34.29 72.39)
@@ -2992,7 +2995,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 83.82) (xy 168.91 87.63)
+			(xy 168.91 83.82) (xy 168.91 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3089,6 +3092,16 @@
 			(type default)
 		)
 		(uuid "835d9b2b-6725-4e51-9f14-82c5a472b2a1")
+	)
+	(wire
+		(pts
+			(xy 168.91 86.36) (xy 168.91 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84837b97-7a76-46cf-b35a-d2d7a16992ac")
 	)
 	(wire
 		(pts
@@ -3262,7 +3275,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 63.5) (xy 142.24 87.63)
+			(xy 142.24 63.5) (xy 142.24 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3272,7 +3285,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 87.63) (xy 168.91 87.63)
+			(xy 142.24 86.36) (xy 168.91 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3309,16 +3322,6 @@
 			(type default)
 		)
 		(uuid "ea14bc66-2e9a-48dc-9e35-f0dabf5db171")
-	)
-	(wire
-		(pts
-			(xy 168.91 87.63) (xy 168.91 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3207079-7df4-4be1-a7b8-2c81f845a0c4")
 	)
 	(wire
 		(pts
@@ -3370,7 +3373,7 @@
 		)
 		(uuid "a46bac94-164e-4cbd-b4b0-d0ab31bfdd0a")
 	)
-	(hierarchical_label "ESP32 EN"
+	(hierarchical_label "ESP32_EN"
 		(shape bidirectional)
 		(at 53.34 173.355 180)
 		(effects
@@ -3414,7 +3417,7 @@
 		)
 		(uuid "5eeeeb19-41ac-40bc-bc7e-24eb7b2518db")
 	)
-	(hierarchical_label "IO1"
+	(hierarchical_label "U0TXD"
 		(shape bidirectional)
 		(at 53.34 168.275 180)
 		(effects
@@ -3436,7 +3439,7 @@
 		)
 		(uuid "67c036cb-e037-487f-984b-f26c30781960")
 	)
-	(hierarchical_label "IO3"
+	(hierarchical_label "U0RXD"
 		(shape bidirectional)
 		(at 53.34 170.815 180)
 		(effects
