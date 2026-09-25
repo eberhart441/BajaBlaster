@@ -47,7 +47,7 @@
 	)
 	(sheet
 		(at 39.37 18.415)
-		(size 19.05 13.335)
+		(size 19.05 26.67)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -73,7 +73,7 @@
 			)
 		)
 		(property "Sheetfile" "comms.kicad_sch"
-			(at 39.37 32.3346 0)
+			(at 39.37 45.6696 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -116,6 +116,26 @@
 		(pin "IO0" input
 			(at 58.42 20.32 0)
 			(uuid "25090b3b-a38c-4f8e-9f2a-dc6d972d7e62")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN_TX" input
+			(at 58.42 38.1 0)
+			(uuid "45373b37-a0c9-404d-9d86-ab900d6ede51")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN_RX" input
+			(at 58.42 35.56 0)
+			(uuid "914877d0-f349-4767-9a22-08d8db91d22b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -179,7 +199,7 @@
 	)
 	(sheet
 		(at 64.77 18.415)
-		(size 22.86 13.335)
+		(size 19.685 26.67)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -205,7 +225,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
-			(at 64.77 32.3346 0)
+			(at 64.77 45.6696 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
