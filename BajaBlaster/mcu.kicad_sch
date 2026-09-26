@@ -2469,7 +2469,7 @@
 		(at 98.425 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2ce331de-8811-49ff-93f1-3e9d6906058b")
+		(uuid "43ef486e-090e-49de-8219-217ce06913df")
 	)
 	(junction
 		(at 88.9 52.07)
@@ -2975,7 +2975,7 @@
 	)
 	(wire
 		(pts
-			(xy 98.425 63.5) (xy 98.425 62.23)
+			(xy 98.425 65.405) (xy 98.425 64.135)
 		)
 		(stroke
 			(width 0)
@@ -3052,6 +3052,16 @@
 			(type default)
 		)
 		(uuid "5b5f939c-8004-48ed-a93a-f6480221d2d1")
+	)
+	(wire
+		(pts
+			(xy 98.425 53.975) (xy 98.425 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d6c217d-8193-4add-ba0c-38351832a492")
 	)
 	(wire
 		(pts
@@ -4158,7 +4168,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 98.425 63.5 0)
+		(at 98.425 65.405 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4169,7 +4179,7 @@
 		(fields_autoplaced yes)
 		(uuid "20977253-0bab-48d8-bf38-ab346cf5c9f2")
 		(property "Reference" "#PWR0311"
-			(at 98.425 69.85 0)
+			(at 98.425 71.755 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4180,7 +4190,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 98.425 68.58 0)
+			(at 98.425 70.485 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4190,7 +4200,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 98.425 63.5 0)
+			(at 98.425 65.405 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4201,7 +4211,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 98.425 63.5 0)
+			(at 98.425 65.405 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4212,7 +4222,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 98.425 63.5 0)
+			(at 98.425 65.405 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5037,7 +5047,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-24_W7.62mm"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3342"
 			(at 39.37 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -5545,7 +5555,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 24.13 70.8152 0)
 			(hide yes)
 			(show_name no)
@@ -6137,7 +6147,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 98.425 57.15 270)
+		(at 98.425 59.055 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6148,7 +6158,7 @@
 		(fields_autoplaced yes)
 		(uuid "df5a39fb-71ee-4ac8-8afa-a107850646c9")
 		(property "Reference" "SW302"
-			(at 102.235 55.8799 90)
+			(at 102.235 57.7849 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6159,7 +6169,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 102.235 58.4199 90)
+			(at 102.235 60.3249 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6169,8 +6179,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 103.505 57.15 0)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3342"
+			(at 103.505 59.055 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6181,7 +6191,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 103.505 57.15 0)
+			(at 103.505 59.055 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6192,7 +6202,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 98.425 57.15 0)
+			(at 98.425 59.055 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

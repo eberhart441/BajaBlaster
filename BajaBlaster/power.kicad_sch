@@ -2739,7 +2739,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_Bourns_SRN6045TA"
 			(at 151.13 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -2761,7 +2761,7 @@
 				)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" "Bourns SRN6045TA-220M"
 			(at 151.13 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -4508,7 +4508,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMB"
 			(at 64.77 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -4665,7 +4665,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0210_1x02-1MP_P3.00mm_Horizontal"
 			(at 26.67 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -4904,7 +4904,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
 			(at 40.64 34.798 90)
 			(hide yes)
 			(show_name no)
