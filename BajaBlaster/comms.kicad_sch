@@ -2367,7 +2367,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
 			(at 173.99 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -3681,7 +3681,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 47.625 94.9198 0)
 			(hide yes)
 			(show_name no)
@@ -3768,7 +3768,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 172.212 70.485 90)
 			(hide yes)
 			(show_name no)
