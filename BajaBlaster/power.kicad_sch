@@ -2119,22 +2119,10 @@
 		(uuid "a7266886-50d8-405c-9c0e-69a647481eb6")
 	)
 	(junction
-		(at 50.8 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a87318b9-a071-4a0e-af3d-cd78684dc3aa")
-	)
-	(junction
 		(at 40.64 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b22cd4a2-0443-437c-8231-a77ee4e5be6c")
-	)
-	(junction
-		(at 50.8 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c28042f2-d750-4eb9-85b9-ed88975412a5")
 	)
 	(junction
 		(at 34.925 104.14)
@@ -2149,10 +2137,22 @@
 		(uuid "ea953e1d-3523-472c-b1c6-2d5fffb98a58")
 	)
 	(junction
+		(at 51.435 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef85d0d0-d72c-400b-a49c-d899094bdf86")
+	)
+	(junction
 		(at 151.13 32.385)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f4077f93-4a5b-486e-855a-c8e1d3b05e1f")
+	)
+	(junction
+		(at 51.435 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f540d92c-3548-4ea2-8cfd-6c0a9d1b8a9d")
 	)
 	(junction
 		(at 163.83 59.69)
@@ -2208,6 +2208,16 @@
 	)
 	(wire
 		(pts
+			(xy 51.435 45.72) (xy 64.77 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "153127c6-82be-43d7-8e83-ed6c60aedddb")
+	)
+	(wire
+		(pts
 			(xy 163.83 59.69) (xy 163.83 62.23)
 		)
 		(stroke
@@ -2218,7 +2228,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 33.02) (xy 50.8 33.02)
+			(xy 44.45 33.02) (xy 51.435 33.02)
 		)
 		(stroke
 			(width 0)
@@ -2248,7 +2258,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 35.56) (xy 50.8 33.02)
+			(xy 51.435 35.56) (xy 51.435 33.02)
 		)
 		(stroke
 			(width 0)
@@ -2305,6 +2315,16 @@
 			(type default)
 		)
 		(uuid "3a2bec1d-3c8f-4d74-a552-45d4657fbe9a")
+	)
+	(wire
+		(pts
+			(xy 51.435 33.02) (xy 64.77 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cd0dd9c-11cd-4c52-ab4c-fc1d2935d68d")
 	)
 	(wire
 		(pts
@@ -2468,16 +2488,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 45.72) (xy 64.77 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa71437d-bc49-4571-bae0-8fd353e43257")
-	)
-	(wire
-		(pts
 			(xy 45.085 118.11) (xy 45.085 115.57)
 		)
 		(stroke
@@ -2548,16 +2558,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 33.02) (xy 64.77 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1ccf63a-34e3-46fc-bda6-d286a694b668")
-	)
-	(wire
-		(pts
 			(xy 31.75 35.56) (xy 40.64 35.56)
 		)
 		(stroke
@@ -2588,7 +2588,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 45.72) (xy 50.8 43.18)
+			(xy 51.435 45.72) (xy 51.435 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2628,7 +2628,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 45.72) (xy 50.8 45.72)
+			(xy 40.64 45.72) (xy 51.435 45.72)
 		)
 		(stroke
 			(width 0)
@@ -4394,7 +4394,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 50.8 39.37 180)
+		(at 51.435 39.37 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4405,7 +4405,7 @@
 		(fields_autoplaced yes)
 		(uuid "c6ab8608-ac8e-4b95-ae2a-30603ccd8333")
 		(property "Reference" "C202"
-			(at 54.61 38.0999 0)
+			(at 55.245 38.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4416,7 +4416,7 @@
 			)
 		)
 		(property "Value" "100uF"
-			(at 54.61 40.6399 0)
+			(at 55.245 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4427,7 +4427,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 49.8348 35.56 0)
+			(at 50.4698 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4438,7 +4438,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 39.37 0)
+			(at 51.435 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4449,7 +4449,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 50.8 39.37 0)
+			(at 51.435 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
