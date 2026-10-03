@@ -145,9 +145,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 0)
+			(drillshape 1)
 			(scaleselection 1)
-			(outputdirectory "Gerbers/")
+			(outputdirectory "")
 		)
 	)
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
@@ -3891,7 +3891,7 @@
 		(descr "Molex Micro-Fit 3.0 Connector System, 43650-0412 (compatible alternatives: 43650-0413, 43650-0414), 4 Pins per row (https://www.molex.com/pdm_docs/sd/436500212_sd.pdf)")
 		(tags "connector Molex Micro-Fit_3.0 horizontal")
 		(property "Reference" "J503"
-			(at 0.115 -0.35 90)
+			(at 0.115 -0.35 270)
 			(layer "F.SilkS")
 			(uuid "37b9a54c-3af3-4eff-9d13-fff025c3b608")
 			(effects
@@ -3902,7 +3902,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04_Pin"
-			(at 0 7.78 90)
+			(at 0 7.78 270)
 			(layer "F.Fab")
 			(uuid "4f27b8aa-34a0-47d1-b137-f1a97e09dcd6")
 			(effects
@@ -3913,7 +3913,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f2c21725-1acd-4062-b20d-4233c3809300")
@@ -3924,7 +3924,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "278fd81e-c7a4-48f8-86d2-b038a0dccb63")
@@ -3935,7 +3935,7 @@
 			)
 		)
 		(property "KiLib_Generator" "connector/Molex"
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "47b73081-3c09-47bf-9699-f78e8caf4c52")
@@ -4409,7 +4409,7 @@
 			(uuid "754b1865-17c5-408e-8054-0bda507c7339")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -4.25 90)
+			(at 0 -4.25 270)
 			(layer "F.Fab")
 			(uuid "d2da841b-2448-4895-9ce9-5db507faaceb")
 			(effects
@@ -9546,7 +9546,7 @@
 		(descr "Molex Micro-Fit 3.0 Connector System, 43045-0610 (compatible alternatives: 43045-0611, 43045-0609), 3 Pins per row (http://www.molex.com/pdm_docs/sd/430450210_sd.pdf)")
 		(tags "connector Molex Micro-Fit_3.0 horizontal")
 		(property "Reference" "J502"
-			(at -0.115 -7.785 90)
+			(at -0.115 -7.785 270)
 			(layer "F.SilkS")
 			(uuid "5d906f39-d848-4e8e-9e96-103092f19efe")
 			(effects
@@ -9557,7 +9557,7 @@
 			)
 		)
 		(property "Value" "INTERBOARD"
-			(at 0 4.98 90)
+			(at 0 4.98 270)
 			(layer "F.Fab")
 			(uuid "32638c4d-6438-45dd-b667-395da833f83d")
 			(effects
@@ -9568,7 +9568,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9c645714-3937-404f-9325-3bd78083014d")
@@ -9579,7 +9579,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ff9a2f5b-1d3c-4802-aff4-9033c53dac1d")
@@ -9590,7 +9590,7 @@
 			)
 		)
 		(property "KiLib_Generator" "connector/Molex"
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "cdd8e909-17d0-4af0-80f5-37eaf0304f18")
@@ -10086,7 +10086,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -11.68 90)
+			(at 0 -11.68 270)
 			(layer "F.Fab")
 			(uuid "83c863dc-89db-4fa7-a5b0-d4a524090ea2")
 			(effects
@@ -16063,14 +16063,6 @@
 		(uuid "ecd84f6d-26dd-4558-800e-dc610fe050c3")
 	)
 	(segment
-		(start 39 86.1)
-		(end 41.075 86.1)
-		(width 0.6)
-		(layer "F.Cu")
-		(net "Net-(D301-A)")
-		(uuid "c2b5a28d-d653-428b-ba57-30a1ced80d79")
-	)
-	(segment
 		(start 30 91.1)
 		(end 30 87.805)
 		(width 1.25)
@@ -16285,6 +16277,14 @@
 		(layer "B.Cu")
 		(net "/COMMS/SYNC")
 		(uuid "961b4c08-19e1-4c13-9c64-bdd97a0d44c1")
+	)
+	(segment
+		(start 39 86.1)
+		(end 41.075 86.1)
+		(width 0.6)
+		(layer "F.Cu")
+		(net "Net-(D301-A)")
+		(uuid "c2b5a28d-d653-428b-ba57-30a1ced80d79")
 	)
 	(zone
 		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu")
