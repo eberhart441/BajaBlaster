@@ -60,7 +60,7 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.0,
+          "min_clearance": 0.5,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 1,
@@ -684,7 +684,7 @@
         "uuid": "08a0edf5-ad57-4ef4-97bf-c48cb466bb64"
       }
     ],
-    "used_designators": "F1,F201,U1-5,U201-202,U301-302,U501,#FLG201-203,R1-5,R201-203,R301-306,J1-4,J201,J301,J501-503,D1,D201,D301-302,L1,L201,#PWR1-23,#PWR201-211,#PWR301-318,#PWR501-512,C1-9,C201-206,C301-306,C501,R_CAN_TERM501,SW301-302,JP501-502",
+    "used_designators": "F1,F201,U1-5,U201-202,U301-304,U501-502,J1-4,J201,J301,J501-504,#FLG201-203,R1-5,R201-203,R301-309,#PWR1-23,#PWR201-211,#PWR301-331,#PWR501-526,L1,L201,D1,D201,D301-302,D501-502,C1-9,C201-206,C301-313,C501-510,R_CAN_TERM501-502,SW301-305,JP501-503,Y301,FL501-502",
     "variants": []
   },
   "sheets": [

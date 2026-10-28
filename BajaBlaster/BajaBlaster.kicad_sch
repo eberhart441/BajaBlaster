@@ -13,102 +13,91 @@
 	(lib_symbols)
 	(wire
 		(pts
-			(xy 65.405 41.275) (xy 71.755 41.275)
+			(xy 64.262 28.702) (xy 70.866 28.702)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1afcb13c-541a-41cf-9cc0-d6dc89f32a9c")
+		(uuid "150ca54d-ec6e-4c2d-a213-436e95b8d4c1")
 	)
 	(wire
 		(pts
-			(xy 65.405 52.07) (xy 71.755 52.07)
+			(xy 64.262 41.402) (xy 70.866 41.402)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1d412c80-3b62-4c66-8e2f-3ddc169a7c99")
+		(uuid "5b065b5e-dd80-46da-a2cd-72ce175a2ddf")
 	)
 	(wire
 		(pts
-			(xy 65.405 28.575) (xy 71.755 28.575)
+			(xy 64.262 38.862) (xy 70.866 38.862)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4e5244b6-75af-42eb-88d0-a750d495a7c4")
+		(uuid "7070f143-aed5-402f-8502-834eee7aaa03")
 	)
 	(wire
 		(pts
-			(xy 65.405 44.45) (xy 71.755 44.45)
+			(xy 64.262 31.242) (xy 70.866 31.242)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5492f40e-4bfc-471d-a01a-52284f8d5638")
+		(uuid "814d92c0-dc02-4f8f-89a2-de385a9566c7")
 	)
 	(wire
 		(pts
-			(xy 65.405 54.61) (xy 71.755 54.61)
+			(xy 64.262 26.162) (xy 70.866 26.162)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "55d1baf9-ca76-4a2a-9bd0-97cf25eaaab1")
+		(uuid "ac4e39ca-30db-4f9c-a0b9-aca5058ca924")
 	)
 	(wire
 		(pts
-			(xy 65.405 32.385) (xy 71.755 32.385)
+			(xy 64.262 33.782) (xy 70.866 33.782)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "767e6877-ac09-494f-9292-8a90491e3ec0")
+		(uuid "d5cc7d9e-898c-4105-9c86-88575a3f5c3e")
 	)
 	(wire
 		(pts
-			(xy 65.405 23.495) (xy 71.755 23.495)
+			(xy 64.262 23.622) (xy 70.866 23.622)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8d734243-e7a1-46fe-8df0-e78155d11738")
+		(uuid "e580f53c-5118-4908-8fe2-f9af3974630d")
 	)
 	(wire
 		(pts
-			(xy 65.405 26.035) (xy 71.755 26.035)
+			(xy 64.262 36.322) (xy 70.866 36.322)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a5d12e5c-a7b1-41b8-9ad5-de45f8e7e387")
-	)
-	(wire
-		(pts
-			(xy 65.405 36.83) (xy 71.755 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2ed7424-e335-4717-a106-3bb3f1661698")
+		(uuid "e9e268e1-e0fc-4463-8e77-b762438d4ceb")
 	)
 	(sheet
-		(at 46.355 21.59)
-		(size 19.05 34.925)
+		(at 45.212 20.828)
+		(size 19.05 23.114)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -118,7 +107,7 @@
 		)
 		(uuid "a8b20a94-9e87-4c03-83c5-8129ea634c32")
 		(property "Sheetname" "COMMS"
-			(at 46.355 20.8784 0)
+			(at 45.212 20.1164 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -129,7 +118,7 @@
 			)
 		)
 		(property "Sheetfile" "comms.kicad_sch"
-			(at 46.355 57.0996 0)
+			(at 44.45 44.704 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -139,9 +128,9 @@
 				(justify left top)
 			)
 		)
-		(pin "ESP32_EN" bidirectional
-			(at 65.405 32.385 0)
-			(uuid "10ca11c9-f76b-49bd-b5ba-bc3ca17c3689")
+		(pin "EXT_CAN_RX" bidirectional
+			(at 64.262 23.622 0)
+			(uuid "35de9a79-39cc-4f10-b703-1e37fef1c57d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -149,9 +138,9 @@
 				(justify right)
 			)
 		)
-		(pin "CAN_TX" bidirectional
-			(at 65.405 54.61 0)
-			(uuid "45373b37-a0c9-404d-9d86-ab900d6ede51")
+		(pin "EXT_CAN_TX" bidirectional
+			(at 64.262 26.162 0)
+			(uuid "d6d7ad14-2a17-4ddc-b8b6-fe359fe380c2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -159,9 +148,9 @@
 				(justify right)
 			)
 		)
-		(pin "CAN_RX" bidirectional
-			(at 65.405 52.07 0)
-			(uuid "914877d0-f349-4767-9a22-08d8db91d22b")
+		(pin "INTER_CAN_RX" bidirectional
+			(at 64.262 28.702 0)
+			(uuid "c279a542-2f9f-4685-981a-44a90ee31e1c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -169,9 +158,9 @@
 				(justify right)
 			)
 		)
-		(pin "U0RXD" bidirectional
-			(at 65.405 23.495 0)
-			(uuid "1e3727f6-20a7-45ce-b88f-973eb0602806")
+		(pin "INTER_CAN_TX" bidirectional
+			(at 64.262 31.242 0)
+			(uuid "e71dad4a-d05a-437c-9964-56b6018de81f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -179,9 +168,9 @@
 				(justify right)
 			)
 		)
-		(pin "INTERBOARD_RX" bidirectional
-			(at 65.405 41.275 0)
-			(uuid "d70917be-ffde-4c99-8aa0-a3fe9eb562bf")
+		(pin "NRST" bidirectional
+			(at 64.262 33.782 0)
+			(uuid "07efe746-6f74-48a0-b8da-00cdd4b456cf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -189,9 +178,9 @@
 				(justify right)
 			)
 		)
-		(pin "INTERBOARD_TX" bidirectional
-			(at 65.405 44.45 0)
-			(uuid "6943cadb-7bb0-4819-9e99-2e4eeb8f6d57")
+		(pin "SWCLK" bidirectional
+			(at 64.262 36.322 0)
+			(uuid "98e64216-207b-44f7-beff-707fb9799bdf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -199,9 +188,9 @@
 				(justify right)
 			)
 		)
-		(pin "U0TXD" bidirectional
-			(at 65.405 26.035 0)
-			(uuid "8040f735-d44f-428c-a64b-c8e195bf1d5c")
+		(pin "SWDIO" bidirectional
+			(at 64.262 38.862 0)
+			(uuid "7756dab8-4a45-4180-838f-a7e77dc2a140")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -209,19 +198,9 @@
 				(justify right)
 			)
 		)
-		(pin "SYNC" bidirectional
-			(at 65.405 28.575 0)
-			(uuid "4dc47fb9-ee18-4e9a-975f-097e1ab98e31")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "IO0" bidirectional
-			(at 65.405 36.83 0)
-			(uuid "9677ab36-c4fa-4542-8c7a-5eff02a540c5")
+		(pin "SWO" bidirectional
+			(at 64.262 41.402 0)
+			(uuid "98172412-4991-4657-ac1e-d7e3dd5b7b56")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -284,8 +263,8 @@
 		)
 	)
 	(sheet
-		(at 71.755 21.59)
-		(size 19.685 34.925)
+		(at 70.866 20.828)
+		(size 19.685 23.368)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -300,7 +279,7 @@
 		)
 		(uuid "d828ebd7-4225-4d5a-b4a0-d2b499e99b3d")
 		(property "Sheetname" "MCU"
-			(at 71.755 20.8784 0)
+			(at 70.866 20.1164 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -311,7 +290,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
-			(at 71.755 57.0996 0)
+			(at 70.866 44.7806 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -321,9 +300,9 @@
 				(justify left top)
 			)
 		)
-		(pin "ESP32_EN" bidirectional
-			(at 71.755 32.385 180)
-			(uuid "311f9811-bfd3-4261-b7a2-e3d77d8ca655")
+		(pin "EXT_CAN_RX" bidirectional
+			(at 70.866 23.622 180)
+			(uuid "42952c6f-35eb-44e4-b73d-cdbf133dd7fa")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -331,9 +310,9 @@
 				(justify left)
 			)
 		)
-		(pin "U0TXD" bidirectional
-			(at 71.755 26.035 180)
-			(uuid "b2a02e82-5341-4bf5-b56d-6a72832d8334")
+		(pin "EXT_CAN_TX" bidirectional
+			(at 70.866 26.162 180)
+			(uuid "d64adcbc-cd35-445b-8a4d-7dcf05400fcb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -341,9 +320,9 @@
 				(justify left)
 			)
 		)
-		(pin "U0RXD" bidirectional
-			(at 71.755 23.495 180)
-			(uuid "ffed4fe9-7888-4f07-a216-3e6dd7958b6c")
+		(pin "INTER_CAN_RX" bidirectional
+			(at 70.866 28.702 180)
+			(uuid "d00a3e0d-8d9c-4fb5-9d57-b9a83bb977ab")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -351,9 +330,9 @@
 				(justify left)
 			)
 		)
-		(pin "INTERBOARD_RX" bidirectional
-			(at 71.755 41.275 180)
-			(uuid "377e9b5e-c680-4de9-b7cf-c4e9443e38a6")
+		(pin "INTER_CAN_TX" bidirectional
+			(at 70.866 31.242 180)
+			(uuid "993e719d-1cd6-4118-b9ca-0a0642be57b5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -361,9 +340,9 @@
 				(justify left)
 			)
 		)
-		(pin "INTERBOARD_TX" bidirectional
-			(at 71.755 44.45 180)
-			(uuid "35576ee3-56b6-424c-ab93-174bc862c460")
+		(pin "NRST" bidirectional
+			(at 70.866 33.782 180)
+			(uuid "a7ed6c29-33a7-4a92-ad36-388228dd9299")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -371,9 +350,9 @@
 				(justify left)
 			)
 		)
-		(pin "CAN_RX" bidirectional
-			(at 71.755 52.07 180)
-			(uuid "6b001752-5b0e-4848-9e58-9aa0df2bd282")
+		(pin "SWCLK" bidirectional
+			(at 70.866 36.322 180)
+			(uuid "96f731df-17b8-4e41-91e8-9a8ea30fe83b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -381,9 +360,9 @@
 				(justify left)
 			)
 		)
-		(pin "CAN_TX" bidirectional
-			(at 71.755 54.61 180)
-			(uuid "e2672003-fa5a-4715-b5fe-46e0ee7dcc5e")
+		(pin "SWDIO" bidirectional
+			(at 70.866 38.862 180)
+			(uuid "abbeec67-9f81-47ea-b2a0-848bce9925a0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -391,19 +370,9 @@
 				(justify left)
 			)
 		)
-		(pin "SYNC" bidirectional
-			(at 71.755 28.575 180)
-			(uuid "89b3e1ac-7ffb-4a12-b1e2-e733be62b228")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "IO0" bidirectional
-			(at 71.755 36.83 180)
-			(uuid "f1ec21e4-0ad7-4bf8-824b-9064b4f10102")
+		(pin "SWO" bidirectional
+			(at 70.866 41.402 180)
+			(uuid "a65ded37-ec94-465c-942a-abaf15ae88ca")
 			(effects
 				(font
 					(size 1.27 1.27)
